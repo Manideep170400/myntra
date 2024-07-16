@@ -1,0 +1,15 @@
+{
+  "home": {
+    "links": "/src/Main/homepage.js",
+    "image": "/assests/dhoni.jpg"
+  },
+  "products": {
+    "Name": "",
+    "price": "",
+    "quality": "",
+    "img": ""
+  },
+  "contacts": {
+    "number": ""
+  }
+}
