@@ -21,7 +21,6 @@ function HomePage() {
   return (
     <div className="homepage">
       <div className="sidebar">
-        <div className="header">Navigation</div>
         <ul>
           <li>
             <Link
