@@ -3,19 +3,19 @@ import { Card } from "@mui/material";
 import { Cycle } from "../atoms/cycle";
 
 const Gear = () => {
-  const { price, capacity, seater, model } = Cycle.gear;
+  const { price, model, capacity, seater } = Cycle.gear;
   const gearbicycle = {
-    url: "/public/cycle/bicycle-gear.jpeg",
+    url: "/cycle/bicycle-gear.jpeg",
     title: "gear",
   };
 
   return (
     <div>
-      <Card style={{ width: "25%" }}>
+      <Card style={{ paddingLeft: "500px" }}>
         <img
           src={gearbicycle.url}
           alt={gearbicycle.title}
-          style={{ width: "100%", height: "auto" }}
+          style={{ width: "100%" }}
         />
         <p>Model: {model}</p>
         <p>Price: {price}</p>

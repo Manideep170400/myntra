@@ -6,8 +6,8 @@ import HomePage from "./Main/homePage";
 import Oppo from "./Mobile/oppo";
 import Vivo from "./Mobile/vivo";
 import IQ from "./Mobile/iq";
-import Altas from "./Cycle/altas";
-import Gear from "./Cycle/gear";
+import Altas from "./Cycle/altas"; // Correct import path and casing
+import Gear from "./Cycle/gear"; // Correct import path and casing
 import HeroCycle from "./Main/bicycle";
 
 function App() {

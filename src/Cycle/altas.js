@@ -1,5 +1,5 @@
-import { Card } from "@mui/material";
 import React from "react";
+import { Card } from "@mui/material";
 import { Cycle } from "../atoms/cycle";
 
 const Altas = () => {
@@ -13,7 +13,7 @@ const Altas = () => {
   return (
     <div>
       <Card>
-        <img src={Altasbicycle.url} alt="altas" style={{ width: "25%" }} />
+        <img src={Altasbicycle.url} alt="altas" style={{ width: "5%" }} />
         {Object.entries(details).map(([key, value], index) => (
           <p key={index}>
             {key}: {value}
