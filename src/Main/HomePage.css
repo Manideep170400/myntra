@@ -1,0 +1,40 @@
+/* HomePage.css */
+
+.header {
+    /* Optional: If you want to style the header */
+    padding: 10px;
+    background-color: #333;
+    color: white;
+  }
+  
+  .homepage {
+    display: flex;
+    height: 100vh; /* Full viewport height */
+  }
+  
+  .sidebar {
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #f0f0f0;
+    padding: 20px;
+    overflow-y: auto; /* Enable vertical scrolling if sidebar content exceeds height */
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin-bottom: 10px;
+  }
+  
+  .content {
+    margin-left: 200px; /* Adjust based on sidebar width */
+    padding: 20px;
+    flex: 1; /* Allow content to grow to fill remaining space */
+  }
+  

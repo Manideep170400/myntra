@@ -8,3 +8,33 @@
 img {
   width: 50px;
 }
+.homepage {
+  display: flex;
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px; /* Adjust as needed */
+  height: 100%;
+  background-color: #f8f9fa; /* Light grey background */
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+}
+
+.menu a {
+  display: block;
+  margin: 10px 0;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
+
+.content {
+  margin-left: 220px; /* Adjust according to the menu width */
+  padding: 20px;
+}
