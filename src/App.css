@@ -20,7 +20,6 @@ img {
   height: 100%;
   background-color: #f8f9fa; /* Light grey background */
   padding: 20px;
-  box-shadow: 2px 0 5px rgba(0,0,0,0.1);
 }
 
 .menu a {
@@ -37,4 +36,9 @@ img {
 .content {
   margin-left: 220px; /* Adjust according to the menu width */
   padding: 20px;
+}
+.main__wrapper {
+padding-left: 630px;
+  display: flex;
+  flex-direction: row;
 }
