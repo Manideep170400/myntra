@@ -2,7 +2,7 @@ import { Card } from "@mui/material";
 import React from "react";
 import { vivo } from "../atoms/mobile";
 
-const Vivo = () => {
+const Vivo = (props) => {
   const { model, ram, rom, processor, cost, screenWidth, battery } = vivo;
   const images = {
     url: "/assests/vivo.jpeg",
@@ -11,6 +11,7 @@ const Vivo = () => {
   const details = { model, ram, rom, processor, cost, screenWidth, battery };
   return (
     <div>
+      <p>props{props.name}</p>
       <Card className="card">
         <img src={images.url} alt="vivo" />
         <div>

@@ -9,6 +9,8 @@ import IQ from "./Mobile/iq";
 import Altas from "./Cycle/altas"; // Correct import path and casing
 import Gear from "./Cycle/gear"; // Correct import path and casing
 import HeroCycle from "./Main/bicycle";
+import { Provider } from "react-redux";
+import store from "./store/store";
 
 function App() {
   return (
@@ -25,6 +27,9 @@ function App() {
           <Route path="/cycle/gear" element={<Gear />} />
         </Routes>
       </Router>
+      <Provider store={store}>
+        <App />
+      </Provider>
     </div>
   );
 }
